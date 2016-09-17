@@ -1,0 +1,30 @@
+﻿[
+  {
+    "Name": "张三",
+    "Age": 20,
+    "IDCard": "421022199604021144",
+    "Gender": 1,
+    "LoginName": "zhangsan",
+    "Password": "123456",
+    "CreateTime": "2016-09-17 18:22:11"
+  },
+  {
+    "Name": "李四",
+    "Age": 22,
+    "IDCard": "421022199404021234",
+    "Gender": 1,
+    "LoginName": "lisi",
+    "Password": "123456",
+    "CreateTime": "2016-09-17 13:22:11"
+  },
+  {
+    "Name": "王五",
+    "Age": 20,
+    "IDCard": "421022199608022346",
+    "Gender": 1,
+    "LoginName": "wangwu",
+    "Password": "123456",
+    "CreateTime": "2016-09-17 19:00:11"
+  }
+]
+

@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "用户";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<div ng-controller="UserController">
+   <table>
+       <thead>
+           <tr>
+               <th>姓名</th>
+               <th>年龄</th>
+               <th>性别</th>
+               <th>证件号</th>
+               <th>创建日期</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr ng-repeat="user in UserList | orderBy:orderProp">
+               <td>{{user.Name}}</td>
+               <td>{{user.Age}}</td>
+               <td>{{user.Gender}}</td>
+               <td>{{user.IDCard}}</td>
+               <td>{{user.CreateTime}}</td>
+           </tr>
+       </tbody>
+   </table>
+</div>
+@section scriptshead {
+    @Scripts.Render("~/Scripts/Controllers/UserController.js")
+}
+
